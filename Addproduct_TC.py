@@ -45,14 +45,14 @@ class admin_login(unittest.TestCase):
         elem.send_keys("Cookies")
         time.sleep(1)
         elem = driver.find_element_by_id("id_p_description")
-        elem.send_keys("We need 20 chocolate chip cookies and 30 sugar cookies")
+        elem.send_keys("We need 50 chocolate chip cookies and 30 sugar cookies")
         time.sleep(1)
 
         elem = driver.find_element_by_id("id_quantity")
-        elem.send_keys("100")
+        elem.send_keys("120")
         time.sleep(1)
         elem = driver.find_element_by_id("id_charge")
-        elem.send_keys("300")
+        elem.send_keys("360")
         time.sleep(1)
 
 
