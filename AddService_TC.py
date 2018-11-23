@@ -45,14 +45,14 @@ class admin_login(unittest.TestCase):
         elem.send_keys("Food Prep/Catering")
         time.sleep(1)
         elem = driver.find_element_by_id("id_description")
-        elem.send_keys("Executive lunch for 40")
+        elem.send_keys("Executive breakfast for 40")
         time.sleep(1)
 
         elem = driver.find_element_by_id("id_location")
-        elem.send_keys("CEC 205")
+        elem.send_keys("CEC 201")
         time.sleep(1)
         elem = driver.find_element_by_id("id_service_charge")
-        elem.send_keys("180")
+        elem.send_keys("100")
         time.sleep(1)
 
 
